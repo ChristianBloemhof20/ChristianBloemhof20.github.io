@@ -3,24 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/aboutMe.css">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="css/aboutMe.css">
 </head>
-<body>
-    <header class="main-header">
-        <nav class="nav main-nav">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="aboutMe.html">About Me</a></li>
-                <li><a href="portfolio.html">Portfolio</a><li>
-            </ul>
-        </nav>
-        <h1 class="banner-words">Christian's Portfolio<h1>
-    </header>
 
-    <br><br><br>
+<body>
+    <nav class="main-nav nav">
+        <h1>Christian Bloemhof</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutMe.html">About Me</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+        </ul>
+    </nav>
+    <h1 class="banner-words">Christian's Portfolio<h1>
 
     <div class="my_projects">
+        <div class="project">
+            <h2 class="project_name">Pangeo</h2>
+            <p>Pangeo is the name of a game that I created with a team of 4 other students. Pangeo is a tower defense hybrid game, where the twist of the game is that towers will break after a certain period of time. Players must play minigames to fix the towers or to give the towers boosts to fend off the waves of enemies. The game is called Pangeo because our narrative is about a land called Pangeo where all the different countries are made up by different shapes. The main characters are the Spheres, and since their technology is better, because they're so well rounded, everyone else wants to raid them and steal their technology. The player must take control of a general in the Spheres' army and defend their homeland using tower defense. To play Pangeo, you can go to this link: <a href="https://play.unity.com/mg/other/webgl-builds-127103" target="_blank">Pangeo</a></p>
+        </div>
+
+        <div class="project">
+            <h2 class="project_name">Your Fate</h2>
+            <p>Your Fate is a browser game that I created for the itch.io Mini Jam 96: Fate. This was a game jam that took place over the span of 3 days that the user had to create a game with the theme of fate. Your Fate is a game where the player uses the mouse to control a cursor and run away from an enemy that is constantly chasing. The player begins the game by waking up in the dungeon of the enemy and has to run away from being captured for as long as possible. However, this is an endless game, meaning that the fate of the player is always to be eventually captured. Play Your Fate at this link: <a href="https://christianbloemhof.itch.io/your-fate" target="_blank">Your Fate</a></p>
+        </div>
+
         <div class="project">
             <h2 class = "project_name">Twitter Bot</h2>
             <p>In this project, I created a bot that would grab     data from a database on my personal device, log onto    twitter, tweet that data, then log out.  This project  was done using the Selenium library in Python.  Check    out the code on my github <a href="https://github.com/ChristianBloemhof20/TwitterBot" target="_blank">TwitterBot</a>.  The     database on my personal device that the bot accesses    was created using SQL. This process is automated, in   the video I manually start up the program for video   purposes but in actuality the program runs on its own.    The way that I did this was by converting the .py file    to a .exec file and setting a time on my calendar to   open that .exec file twice a week.</p>
@@ -31,52 +39,8 @@
 
             <br>
 
-            <h3>Issues and Improvements</h3>
-
-            <p>What would a project be without things to be made    better (even if if never happens).</p>
-
-            <ol>
-                <li>One of the main issues I had was running this.  I used a calandar to set the time for which this program would be run.  While this did work, it also seemed to create a lot of undesired inefficiencies.  One issue was that if my laptop was not on at the desired run-time, the program would not run until the laptop was open.  Another issue is that if I was using my laptop at the run-time, then I would be interrupted by the launching of the executable file.
-
-                    <br><br>
-
-                    A solution that I came up with for this lies within the raspberry pi I just got.  If I can move all the code and SQL to the pi and run it using crontab then it would be always running and much more efficient.
-                </li>
-
-                <br>
-
-                <li>If this was to be something that a company  uses, the database would need to be larger. Mine     only contains 25 different possible tweets. The bot     could also extract data from trending and stuff     like that to be more representative of what is  actually happening on twitter and not just randomly  tweeting.</li>
-
-                <br>
-
-                <li>It was actually difficult to use Selenium, I    was only able to do this project because of my     knowledge with CSS.  If I tried showing this to     someone who had no knowledge of CSS classes and     things like that, it would take a lot of time for   them to get it.  I'm sure there might be a library    already out there for logging onto Twitter via     Python, but a future project for myself could be    creating that library.  I could create a library so    if someone wants to, say, log on they input twitter.   login("...") and that would select the login box   and enter the username and password and then enter    it all.</li>
-            </ol>
-
         </div>
         <br><br>
-        <div class="project">
-            <h2 class="project_name">Data Structures</h2>
-            <p>This project is actually a series of labs I had to do for a class.  I wanted to include it to my portfolio to show my knowledge and understanding of <a href="https://github.com/ChristianBloemhof20/Lists" target="_blank" >Data Structures</a>.  In this class, we had to use Python to create our own data structures.  I have included the code for the linked list and the array on my github, but I also created a stack, queue, sorter, bst, dictionary, and graphs.  I understand that a lot of companies are looking for people with skills in data structures, so I hope this helps build my credibility in data structures.  This labs were also done over a year ago, so I have grown a lot since making these and my knowledge of data structures has increased.</p>
-        </div>
-
-        <br><br>
-        <h2>I plan to add more projects that I have done before, but for the sake of time this is all I will include for now.  My goal right now is go get this website up and applications in before I add more.  If you have questions on projects, feel free to ask.</h2>
     </div>
-    
-        <footer class="footer-main">
-            <div class="main-footer-container">
-                <h1>Christian Bloemhof</h1>
-                <ul class="footer-nav nav">
-                    <li>
-                        <a href="https://github.com/ChristianBloemhof20" target="_blank"><img   src="/Photos/AboutMe/github.png"
-                                alt="Github" id="github"></a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/christian_bloemhof/" target="_blank"><img
-                                src="/Photos/AboutMe/instagram.png"     alt="Instagram" id="insta"></a>
-                    </li>
-                </ul>
-            </div>
-        </footer>
 </body>
 </html>
